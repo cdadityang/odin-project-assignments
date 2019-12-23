@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Guess Number Sinatra Game</title>
+    
+    <style>
+      span{
+        color: <%= message[1] %>;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Guess a Number:
+      <span><%= message[0] %></span>
+    </p>
+    
+    <p>
+      Guesses left: <%= remaining_guess %>
+    </p>
+    
+    <p>
+      Now: <%= secret_number %>
+    </p>
+    
+    <% if is_cheat %>
+      <p>Cheat mode ON: Secret number is <%= secret_number %></p>
+    <% end %>
+    
+    
+    <% if message[0] == "You got it right!" %>
+      <p style="color: <%= message[1] %>">
+        <%= "Correct! Secret number was #{old_secret_number}. You did it in #{5 - old_remaining_guess} Guesses. New Secret Number generated and remaining guesses reset!" %>
+      </p>
+    <% end %>
+    
+    <form>
+      <input type='text' name='guess' autofocus />
+      <input type='submit' value='Guess!' />
+    </form>
+    
+  </body>
+</html>

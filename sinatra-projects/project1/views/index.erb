@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Ceaser Cipher</title>
+  </head>
+  <body>
+    <div class="form-group">
+      <form>
+        <label for="inputtext">Text: </label>
+        <input type='text' name='inputtext' autofocus required /> <br /><br />
+        <label for="shift">Shift: (min 1, max 9)</label>
+        <input type="number" name="shift" min="1" max="9" required> <br /><br />
+        <input type='submit' value='Cipher it!' />
+      </form>
+    </div>
+    
+    <div class="answer">
+      <p>
+        <%= final_answer %>
+      </p>
+    </div>
+    
+  </body>
+</html>

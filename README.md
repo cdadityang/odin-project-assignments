@@ -2,28 +2,37 @@
 
 > Learning Full-stack web development from [The Odin Project](https://www.theodinproject.com/). I started it a year ago. Here, I'll post my solutions to assignments.
 
+-----
+
 ## Road map
 1. Web Development 101:
-    - [x] The Basics
-    - [x] Git Basics
-    - [x] The Front End
+    - [x] : The Basics
+    - [x] : Git Basics
+    - [x] : The Front End
         - Three projects - Google homepage, Search page and Android logo
-    - [x] JavaScript Basics
+    - [x] : JavaScript Basics
         - Projects: See point 6 below
-    - [x] The Back End
+    - [x] : The Back End
         - Finished 26 [Project Euler questions](https://github.com/cdadityang/project-euler)
         - Ruby Basics Project Solving - See `ruby-basics-ps` folder or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-basics-ps)
-    - [x] Web Development Frameworks
+    - [x] : Web Development Frameworks
         - Blogger Assignment in Rails Beginner - Done but No Link. see `blogger-rails` folder or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/blogger-rails)
-    - [x] Pair Programming
+    - [x] : Pair Programming
 
 2. Ruby Programming:
-    - [x] Basic Ruby
+    - [x] : Basic Ruby
         - See `ruby-basics-programming` folder till advance building blocks or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-basics-programming)
-    - [x] Intermediate Ruby:
+    - [x] : Intermediate Ruby:
         - See [Event Manager Project](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-intermediate/event-manager) for Project Event Manager - done with bonus iteration
         - See [File IO Serialization project](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-intermediate/file-io-serialization) folder for Hangman for File I/O and Serialization Project
-    - [x] A Bit of Computer Science: [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/a-bit-of-cs)
+    - [x] : A Bit of Computer Science: [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/a-bit-of-cs)
+
+3. Ruby on Rails:
+    - [x] : Sinatra
+        - Sinatra Basics: [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/sinatra-basics)
+        - Sinatra Projects: [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/sinatra-projects)
+
+-----
 
 ## All Links for projects
 1. [Google HomePage](https://cdadityang.github.io/odin-project-assignments/google-homepage)
