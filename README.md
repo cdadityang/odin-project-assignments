@@ -30,9 +30,9 @@
 3. [Android Logo - CSS3](https://cdadityang.github.io/odin-project-assignments/android-logo-css3)
 4. [JS Jasmine Testing Basics](https://github.com/cdadityang/odin-project-assignments/tree/master/js-jasmine/tests)
 5. JS Projects Links:
-    - [Rock Paper Scissors W/o UI](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/rock-paper-scissors/)
-    - [Rock Paper Scissors With UI](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/rock-paper-scissors/index2.html)
-    - [JS Drum Kit by Wes Bos](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/01-js-drum-kit/index.html)
-    - [ETCH-A-SKETCH PROJECT](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/etch-a-sketch/)
-    - [JS Array By Web Bos - P1](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/04-js-arrays/) and [Part 2](https://iamadityanagla.github.io/odin-project-assignments/javascript-exercises-solutions/projects/04-js-arrays/index2.html)
-    - [Complete Calculator](https://cdadityang.github.io/odin-project-assignments/javascript-exercises-solutions/projects/complete-calculator/)
+    - [Rock Paper Scissors W/o UI](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/rock-paper-scissors/index.html) - See Output in Browser Console
+    - [Rock Paper Scissors With UI](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/rock-paper-scissors/index2.html)
+    - [JS Drum Kit by Wes Bos](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/01-js-drum-kit/index.html)
+    - [ETCH-A-SKETCH Project](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/etch-a-sketch/)
+    - [JS Array By Web Bos - P1](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/04-js-arrays/) and [Part 2](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/04-js-arrays/index2.html)
+    - [Complete Calculator](https://cdadityang.github.io/odin-project-assignments/js-projects/projects/complete-calculator/)

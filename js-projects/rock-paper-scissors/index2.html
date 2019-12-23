@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors with UI</title>
+</head>
+<body>
+  <div class="game-content">
+    <p>Select a Button of choice</p>
+    <button class="btn rock">Rock</button>
+    <button class="btn paper">Paper</button>
+    <button class="btn scissors">Scissors</button>
+  </div>
+  <div>
+    <p class="player-selection"></p>
+    <p class="computer-selection"></p>
+    <p class="game-winner"></p>
+    <p class="player-score"></p>
+    <p class="computer-score"></p>
+    <p class="final-winner"></p>
+  </div>
+  <script>
+    const buttons = document.querySelectorAll('.btn');
+    const gameWinnerPTag = document.querySelector('.game-winner');
+    const computerSelectionPTag = document.querySelector('.computer-selection');
+    const playerSelectionPTag = document.querySelector('.player-selection');
+    const playerScorePTag = document.querySelector('.player-score');
+    const computerScorePTag = document.querySelector('.computer-score');
+    const finalWinnerPTag = document.querySelector('.final-winner');
+    var winner;
+    var winnerString;
+    var playerScore = 0;
+    var computerScore = 0;
+    buttons.forEach(button => {
+        button.addEventListener('click', (e) => {
+          playerSelection = (e.target.innerText).toLowerCase();
+          playerSelectionPTag.textContent = "You selected: " + playerSelection;
+          computerSelection = computerPlay();
+          computerSelectionPTag.textContent = "Computer selects: " + computerSelection;
+          winnerString = winnerRound();
+          gameWinnerPTag.textContent = winnerString;
+
+          if(winnerString == "Computer Wins!"){
+            computerScore++;
+          }
+          else if(winnerString == "Player Wins!"){
+            playerScore++
+          }
+          playerScorePTag.textContent = "Player: " + playerScore;
+          computerScorePTag.textContent = "Computer: " + computerScore;
+
+          if(playerScore == 5){
+            finalWinnerPTag.textContent = "Finally Player Wins!"
+          }
+          else if(computerScore == 5){
+            finalWinnerPTag.textContent = "Finally Computer Wins!"
+          }
+      });
+    });
+
+    function winnerRound(){
+      winner = playRound(computerSelection, playerSelection);
+        if(winner == 2)
+          winnerString = "Tie!";
+        else if(winner == 1)
+          winnerString = "Computer Wins!"
+        else
+          winnerString = "Player Wins!"
+      return winnerString;
+    }
+
+    function computerPlay(){
+      var number = Math.ceil(Math.random()*3);
+      if(number==1)
+        computerSelection = "rock"
+      else if(number == 2)
+        computerSelection = "paper"
+      else
+        computerSelection = "scissors"
+      
+        return computerSelection;
+    };
+
+    // Computer wins = 1, Player wins = 0, TIe = 2
+    function playRound(computerSelection, playerSelection){
+      if(computerSelection == playerSelection){
+        winner = 2;
+        return winner;
+      }
+      if(computerSelection == "rock"){
+        if(playerSelection == "scissors"){
+          winner = 1;
+          return winner;
+        }
+        else if(playerSelection == "paper"){
+          winner = 0;
+          return winner;
+        }
+      }
+      if(computerSelection == "paper"){
+        if(playerSelection == "rock"){
+          winner = 1;
+          return winner;
+        }
+        else if(playerSelection == "scissors"){
+          winner = 0;
+          return winner;
+        }
+      }
+      if(computerSelection == "scissors"){
+        if(playerSelection == "paper"){
+          winner = 1;
+          return winner;
+        }
+        else if(playerSelection == "rock"){
+          winner = 0;
+          return winner;
+        }
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.container{
+  width: 1000px;
+  height: 1000px;
+  border: 0.5px solid;
+  line-height: 0;
+  margin: 20px;
+}
+.sq-div{
+  display: inline-block;
+}
+.reset-button{
+  margin: 30px;
+}
+.black{
+  background: black;
+}
