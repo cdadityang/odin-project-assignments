@@ -12,7 +12,7 @@
         - Projects: See point 6 below
     - [x] The Back End
         - Finished 26 [Project Euler questions](https://github.com/cdadityang/project-euler)
-        - Ruby Basics Project Solving - See `solutions-ruby-basics` folder
+        - Ruby Basics Project Solving - See `ruby-basics-ps` folder or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-basics-ps)
     - [x] Web Development Frameworks
         - Blogger Assignment in Rails Beginner - Done but No Link. see `blogger` folder
     - [x] Pair Programming
