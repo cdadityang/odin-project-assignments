@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.g-logo-head{
+  width: 100%;
+  background: #eee;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.g-logo img{
+  float: left;
+}
+
+.g-search{
+  float: left;
+  width: 640px;
+  height: 42px;
+  margin-left: 40px;
+  background: #fafafa;
+  border: 1px solid lightgrey;
+}
+
+.g-search form .g-input-search{
+  width: 570px;
+  height: 34px;
+  margin: 5px 10px;
+  font-size: 16px;
+  border: none;
+}
+.g-search form .g-input-search:focus{
+  outline: none;
+}
+
+.g-search form button{
+  border: 0;
+  background: transparent;
+  height: 44px;
+  outline: 0;
+  float: right;
+  width: 40px;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.g-search form button span{
+  color: #4285f4;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.g-signin{
+  float: right;
+}
+
+.g-signin button{
+  background: #4285f4;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px;
+  margin-right: 20px;
+}
+
+.g-tags-head{
+  background: #eee;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px;
+}
+
+.g-tags-head .g-tag-left{
+  margin-left: 130px;
+}
+
+.g-tags-head .g-tag-left li{
+  display: inline;
+}
+
+.g-tags-head .g-tag-left li:first-child a{
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+.g-tags-head .g-tag-left li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.g-tags-head .g-tag-left li a:hover{
+  color: #111;
+}
+
+.g-tags-head .g-tag-left li:nth-child(6){
+  margin-left: 110px;
+}
+
+.g-tags-head .g-tag-left li:last-child a:hover{
+  border: 1px solid grey;
+  background: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.g-search-count p{
+  font-size: 14px;
+  color: #808080;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.g-searches{
+  margin-left: 150px;
+  margin-top: 25px;
+  width: 680px;
+}
+.g-links{
+  margin-bottom: 25px;
+}
+.g-links a{
+  font-size: 20px;
+  text-decoration: none;
+}
+.g-links a:hover{
+  text-decoration: underline;
+}
+.g-links .g-link-url{
+  font-size: 14px;
+  margin-top: 3px;
+  color: green;
+}
+.g-links .g-link-para{
+  color: #545454;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.g-search-related{
+  margin-left: 150px;
+  position: relative;
+}
+.g-search-related .g-sr{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.g-sr-links-left a{
+  display: inline-block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.g-sr-links-left a:hover{
+  text-decoration: underline;
+}
+
+.g-sr-links-right{
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top: 42px;
+}
+.g-sr-links-right a{
+  margin-bottom: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.g-sr-links-right a:hover{
+  text-decoration: underline;
+}
+
+.g-footer{
+  background: #eee;
+  margin-top: 40px;
+  border-top: 1px solid darkgrey;
+}
+
+.g-loc{
+  padding: 20px 0 10px 150px;
+  display: inline-block;
+}
+
+.g-loc .g-cir{
+  width: 10px;
+  height: 10px;
+  background: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+.g-loc-p{
+  font-size: 14px;
+  color: grey;
+}
+.g-loc a{
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+}
+.g-loc a:hover{
+  color: #333;
+}
+
+.g-main-footer{
+  margin-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.g-main-footer a{
+  color: grey;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.g-main-footer a:hover{
+  color: #333;
+}

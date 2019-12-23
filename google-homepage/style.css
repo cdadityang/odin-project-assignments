@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+li a{
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+.navbar-top ul{
+  list-style-type: none;
+  position: relative;
+  margin: 10px 20px 0 0;
+  padding: 0;
+}
+
+.navbar-top ul li{
+  display: inline;
+  position: relative;
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+
+.navbar-top ul li a{
+  position: relative;
+  top:5px;
+  text-decoration: none;
+}
+
+.navbar-top ul li a:hover{
+  text-decoration: underline;
+}
+
+.navbar-top .g-signin{
+  background: #4285f4;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px;
+}
+
+.middle-google{
+  position: relative;
+  text-align: center;
+  padding-top: 170px;
+}
+.subtext{
+  position: relative;
+  display: inline;
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  top: -20px;
+  left: 98px;
+}
+
+.g-main-text{
+  display: block;
+  margin: 0 auto;
+  height: 44px;
+  border: 1px solid #fff;
+  width: 600px;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.g-search-text{
+  display: block;
+  margin: 0 auto;
+  height: 36px;
+  width: 530px;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  border: none;
+  padding: 0 0 5px 5px;
+  font-size: 16px;
+}
+.g-main-text input:focus{
+  border: none;
+  outline: none;
+}
+.voice-google{
+  position: absolute;
+  right: 15px;
+}
+.buttons{
+  text-align: center;
+}
+.submit-google, .lucky-google{
+  margin-top: 30px;
+  width: auto;
+  height: 36px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #f2f2f2;
+  color: #333;
+  border: none;
+  opacity: 0.95;
+}
+
+.g-offer{
+  padding: 30px 0 80px 0;
+}
+
+.g-offer a {
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+
+.navbar-bottom{
+  background: lightgrey;
+  width: 100%;
+  padding: 12px 0;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+}
+.navbar-bottom ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-bottom ul li{
+  display: inline;
+}
+.navbar-bottom .g-b-left{
+  float: left;
+  margin-left: 20px;
+}
+.navbar-bottom .g-b-left li{
+  margin-left: 15px;
+}
+
+.navbar-bottom .g-b-left li a{
+  color: #444;
+}
+
+.navbar-bottom .g-b-right{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar-bottom .g-b-right li{
+  margin-right: 15px;
+}
+.navbar-bottom .g-b-right li a{
+  color: #444;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
