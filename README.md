@@ -14,7 +14,7 @@
         - Finished 26 [Project Euler questions](https://github.com/cdadityang/project-euler)
         - Ruby Basics Project Solving - See `ruby-basics-ps` folder or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-basics-ps)
     - [x] Web Development Frameworks
-        - Blogger Assignment in Rails Beginner - Done but No Link. see `blogger` folder
+        - Blogger Assignment in Rails Beginner - Done but No Link. see `blogger-rails` folder or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/blogger-rails)
     - [x] Pair Programming
 
 2. Ruby Programming:
