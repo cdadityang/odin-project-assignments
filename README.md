@@ -19,10 +19,11 @@
 
 2. Ruby Programming:
     - [x] Basic Ruby
-        - See `ruby-prog-ruby-basic` folder till advance building blocks
+        - See `ruby-basics-programming` folder till advance building blocks or [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-basics-programming)
     - [x] Intermediate Ruby:
-        - See [ruby-project-event-manager](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-project-event-manager) for Project Event Manager - done with bonus iteration
-        - See [ruby-project-file-io-serialization](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-project-file-io-serialization) folder for Hangman for File I/O and Serialization Project
+        - See [Event Manager Project](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-intermediate/event-manager) for Project Event Manager - done with bonus iteration
+        - See [File IO Serialization project](https://github.com/cdadityang/odin-project-assignments/tree/master/ruby-intermediate/file-io-serialization) folder for Hangman for File I/O and Serialization Project
+    - [x] A Bit of Computer Science: [Navigate Here](https://github.com/cdadityang/odin-project-assignments/tree/master/a-bit-of-cs)
 
 ## All Links for projects
 1. [Google HomePage](https://cdadityang.github.io/odin-project-assignments/google-homepage)
